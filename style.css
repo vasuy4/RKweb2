@@ -8,3 +8,149 @@
 html {
     background-color: rgba(8, 8, 12);
 }
+
+header {
+    margin-bottom: 21px;
+
+    width: 100%;
+    display: flex;
+}
+
+.header_elems {
+    justify-content: space-between;
+    display: flex;
+    padding: 0 200px;
+    margin: 0 auto;
+    
+
+    max-width: 1920px;
+    width: 100%;
+    height: 70px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    width: auto;
+}
+
+nav a {
+    color: #fff;
+    margin-right: 98px;
+}
+
+nav a:last-child {
+    margin-right: 0;
+}
+
+nav a:hover{
+    color: rgba(30, 225, 179);
+}
+
+
+#menu {
+    display: none;
+}
+
+.personal_data {
+    font-weight: 900;
+    display: flex;
+    width: auto;
+    align-items: center;
+}
+.login {
+    margin-right: 32px;
+    color: #fff;
+}
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(30, 225, 179);
+    color: black !important;
+    width: 103px;
+    height: 42px;
+    border-radius: 3px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.main_wrapper {
+    justify-content: space-between;
+    padding: 0 150px;
+    max-width: 1820px;
+    width: 100%;
+    margin-left: -150px;
+    display: flex;
+}
+
+.main_content {
+    max-width: 750px;
+    margin-left: 100px;
+}
+
+.main_img img {
+    width: 100%;
+    max-width: 500px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    color: #fff;
+    margin-top: 60px;
+}
+
+.line {
+    background-color: rgba(81, 81, 81);
+
+    width: 245px;
+    height: 3px;
+    border-radius: 100px;
+    margin-top: 10px;
+    margin-bottom: 115px;
+}
+.subline {
+    background-color: rgba(30, 225, 179);
+
+    width: 157px;
+    height: 3px;
+    border-radius: 100px;
+}
+
+section {
+    display: flex;
+
+}
+
+.sec_img {
+    background-color: #fff;
+    height: 104px;
+    width: 104px;
+    border-radius: 100px;
+    flex-shrink: 0;
+    margin-bottom: 42px;
+    margin-right: 97px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.sec_content p {
+    color: #fff;
+    font-size: 15px;
+    line-height: 22.5px;
+    display: flex;
+}
