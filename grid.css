@@ -1,0 +1,89 @@
+#div_nav {
+    margin-top: 4.0rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    width: 34rem;
+}
+body {
+    background-color: var(--main-color);
+    width: auto;
+    max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.container {
+  margin: 5rem;
+  display: grid;
+    grid-template-columns: 1fr 3fr; 
+    gap: 10px;
+}
+#div_nav {
+  width: auto;
+}
+.panel{
+  display: grid;
+  grid-template-rows: (9, 1fr);
+}
+.graph_panel{
+  display: grid;
+  grid-template-columns: (6,1fr);
+  grid-template-rows: (3,1fr);
+  gap: 10px;
+}
+.graph0{
+  display: inline;
+  grid-column-start: 1;
+  grid-column-end: 7;
+}
+.graph1{
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.graph2{
+  display: grid;
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+.graph3{
+  display: grid;
+  grid-column-start: 5;
+  grid-column-end: 7;
+}
+.graph4{
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.graph5{
+  display: grid;
+  grid-column-start: 4;
+  grid-column-end: 7;
+}
+.gallery {
+  display: grid;
+  
+  grid-template-columns: repeat(auto-fill, minmax(22rem, 1fr));
+  grid-gap: 5px;
+  margin: 5rem;
+}
+.picture{
+  background-image: url("../img/photo1.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 22.4rem 22.4rem;
+  size: 22.4rem 22.4rem;
+  width: 22rem;
+  height: 22rem;
+  display: grid;
+  place-items: center;
+}
+.newbutton {
+  background-color: aliceblue;
+  color: black;
+  padding: 1rem;
+  border-radius: 30%;
+}
